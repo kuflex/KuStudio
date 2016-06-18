@@ -17,8 +17,11 @@ It is made with openFrameworks and is available for OSX and Windows.
 
 Binaries can be downloaded at https://sourceforge.net/p/kustudio 
 
-===Compiling===
-This project should be compiled with openFrameworks 0.9.3.
-It's tested under OSX and Windows, but should work in Lunux too.
+--- Compiling ---
+
+To compile the project you need:
+OSX: XCode, openFrameworks 0.9.3.
+Windows: Visual Studio 2015 C++ (Express), openFrameworks 0.9.3.
+Linux: not tested, but should work too.
 
 You can download sources for older openFrameworks versions at https://sourceforge.net/p/kustudio 
