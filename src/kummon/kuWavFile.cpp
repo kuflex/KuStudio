@@ -161,8 +161,8 @@ void kuWavFile::printInfo() {
 //---------------------------------------------------------------------
 //рисует
 void kuWavFile::render( const kuWavFileDrawParam &param, const ofColor &background ) {
-    int w = param.w;
-    int h = param.h;
+    int w = max( param.w, 1 );
+    int h = max( param.h, 1 );
     
     
     

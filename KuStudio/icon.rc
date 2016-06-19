@@ -6,3 +6,4 @@ MAIN_ICON               ICON                    "icin/icon.ico"
 #else
 MAIN_ICON               ICON                    "icon/icon.ico"
 #endif
+GLUT_ICON 				ICON 					"icon/icon.ico"

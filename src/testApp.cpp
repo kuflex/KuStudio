@@ -9,7 +9,7 @@
 #include "kuButton.h"
 #include "kuConsole.h"
 
-string PRODUCT_NAME = "KuStudio (1.64)";
+string PRODUCT_NAME = "KuStudio (1.65)";
 
 kuMenu menu;
 kuNavigator navi;
@@ -124,8 +124,9 @@ void testApp::setup(){
 
 //--------------------------------------------------------------
 void testApp::resized() {
-    int w = ofGetWidth();
-    int h = ofGetHeight();
+	int minSize = 7;
+    int w = max( ofGetWidth(), minSize);
+    int h = max( ofGetHeight(), minSize);
     navi.resized(w - 6, 30);
     project.setThumbSize( navi.getW(), navi.getH() );
     project.setWindowSize( w, h );
