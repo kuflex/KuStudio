@@ -1,4 +1,4 @@
-##KuStudio - minimalistic superstable OSC editor##
+##KuStudio - minimalistic superstable OSC sequencer##
 
 KuStudio is an open source OSC editor, recorder and player, aimed to create timeline on an audiotrack.
 
