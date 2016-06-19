@@ -13,7 +13,7 @@ https://www.youtube.com/watch?v=CuxJqp4HyNA
 
 ###User Guide###
 
-Detailed User guide, including installation details, see in [bin/KuStudio-Guide.pdf](https://github.com/kuflex/KuStudio/raw/master/bin/KuStudio-Guide.pdf)
+Detailed User guide, including installation details, see in [bin/KuStudio-Guide.pdf](https://github.com/kuflex/KuStudio/blob/master/bin/KuStudio-Guide.pdf)
 
 ###Details###
 
