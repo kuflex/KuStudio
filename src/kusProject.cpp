@@ -4,6 +4,7 @@
 #include "converter.h"
 #include "kusState.h"
 #include "ParamMap.h"
+#include "kuConsole.h"
 
 //трек звука - всегда вверху показывается
 //по пробелу - запускается с левого края страницы
@@ -185,7 +186,7 @@ bool kusProject::save( bool saveAs, bool forceSave ) {
 
 //---------------------------------------------------------------------
 void kusProject::shiftAllTracks_samples() { //сдвинуть все треки влево в сэмплах
-    string sec = ofSystemTextBoxDialog("Shift all tracks by time (samples)", "0" );
+    string sec = systemTextBoxDialog("Shift all tracks by time (samples)", "0" );
     if ( sec != "" ) {
         int v = ofToInt(sec);
         if ( v != 0 ) {
@@ -199,7 +200,7 @@ void kusProject::shiftAllTracks_samples() { //сдвинуть все треки
 
 //---------------------------------------------------------------------
 void kusProject::shiftAllTracks_sec() { //сдвинуть все треки влево
-    string sec = ofSystemTextBoxDialog("Shift all tracks by time (sec)", "0" );
+    string sec = systemTextBoxDialog("Shift all tracks by time (sec)", "0" );
     if ( sec != "" ) {
         float v = ofToFloat(sec);
         if ( v != 0 ) {
@@ -639,7 +640,7 @@ string kusProject::timeString() {
 void kusProject::addTrack() {
     if ( isEmpty() ) { return; }
 
-    string res = ofSystemTextBoxDialog( "Add track", "trackName");
+    string res = systemTextBoxDialog( "Add track", "trackName");
     if ( res != "" ) {
         string name = res;
         int oscOut = 1;
@@ -711,7 +712,7 @@ void kusProject::editTrackType() {
 void kusProject::deleteTrack() {
     if ( isEmpty() ) { return; }
     if ( selectedTrack_ >= 0 ) {
-        if ( ofSystemTextBoxDialog("Confirm deleting track "
+        if ( systemTextBoxDialog("Confirm deleting track "
                                    + tracks[selectedTrack_].name()
                                    + "? (type 'yes')") == "yes" ) {
             tracks.erase( tracks.begin() + selectedTrack_ );

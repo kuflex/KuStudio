@@ -1,5 +1,6 @@
 ﻿#include "kusTrack.h"
 #include "kusState.h"
+#include "kuConsole.h"
 
 //---------------------------------------------------------------------
 void kusTrack::setup() {
@@ -149,19 +150,19 @@ float kusTrack::convertType( float v ) {
 
 //---------------------------------------------------------------------
 void kusTrack::setNameDialog() {
-    string res = ofSystemTextBoxDialog( "' " + name() + "' - name", name_ );
+    string res = systemTextBoxDialog( "' " + name() + "' - name", name_ );
     if ( res != "" ) { setName( res ); }
 }
 
 //---------------------------------------------------------------------
 void kusTrack::setOscOutDialog() {
-    string res = ofSystemTextBoxDialog( "'" + name() + "' - Osc out", ofToString( oscOut_ ) );
+    string res = systemTextBoxDialog( "'" + name() + "' - Osc out", ofToString( oscOut_ ) );
     if ( res != "" ) { setOscOut( ofToInt( res ) ); }
 }
 
 //---------------------------------------------------------------------
 void kusTrack::setRangeDialog() {
-    string res = ofSystemTextBoxDialog( "'" + name() + "' - Range",
+    string res = systemTextBoxDialog( "'" + name() + "' - Range",
                                        ofToString( range0_ ) + " " + ofToString( range1_ ) );
     if ( res != "" ) {
         vector<string> list = ofSplitString( res, " " );
@@ -173,7 +174,7 @@ void kusTrack::setRangeDialog() {
 
 //---------------------------------------------------------------------
 void kusTrack::setSmoothDialog() {
-    string res = ofSystemTextBoxDialog( "'" + name() + "' - Smooth (0..1)",
+    string res = systemTextBoxDialog( "'" + name() + "' - Smooth (0..1)",
                                        ofToString( smooth_ ) );
     if ( res != "" ) {
         setSmooth( ofToFloat( res ) );
@@ -182,7 +183,7 @@ void kusTrack::setSmoothDialog() {
 
 //---------------------------------------------------------------------
 void kusTrack::setTypeDialog() {
-    string res = ofSystemTextBoxDialog( "'" + name() + "' - Type (float, int)",
+    string res = systemTextBoxDialog( "'" + name() + "' - Type (float, int)",
                                        typeToString( type_ ) );
     if ( res != "" ) {
         setType( stringToType( res ) );

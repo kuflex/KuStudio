@@ -12,3 +12,5 @@ bool console_working();				//работает ли тут консоль
 void console_show();				//показать консоль
 void console_hide();				//скрыть консоль
 
+void window_activate();				//сделать окно приложения активным
+string systemTextBoxDialog(const string &title, const string &value = "");	//запрос текстового поля, с активацией окна (в oF не активирует)

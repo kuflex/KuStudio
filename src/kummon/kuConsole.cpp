@@ -33,3 +33,21 @@ void console_hide()					//скрыть консоль
 	ShowWindow( hWnd, SW_HIDE );
 #endif
 }
+
+
+//-------------------------------------------------------------------
+void window_activate() {
+#ifdef TARGET_WIN32
+	SetForegroundWindow(GetActiveWindow());
+#endif
+}
+
+//-------------------------------------------------------------------
+string systemTextBoxDialog(const string &title, const string &value)
+{
+	string result = ofSystemTextBoxDialog( title, value );
+	window_activate();
+	return result;
+}
+
+//-------------------------------------------------------------------

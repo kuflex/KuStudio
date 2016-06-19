@@ -9,7 +9,7 @@
 #include "kuButton.h"
 #include "kuConsole.h"
 
-string PRODUCT_NAME = "KuStudio (1.63)";
+string PRODUCT_NAME = "KuStudio (1.64)";
 
 kuMenu menu;
 kuNavigator navi;

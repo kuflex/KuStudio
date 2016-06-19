@@ -1,5 +1,6 @@
 ﻿#include "kuOscSend.h"
 #include "kuErrors.h"
+#include "kuConsole.h"
 
 //---------------------------------------------------------------------
 kuOscSend::kuOscSend() {
@@ -64,7 +65,7 @@ void kuOscSend::setupFromString( const string &s ) {
 
 //---------------------------------------------------------------------
 void kuOscSend::setupFromDialog( const string &title ) {
-    string res = ofSystemTextBoxDialog( title, toString() );
+    string res = systemTextBoxDialog( title, toString() );
     if ( res != "" ) {
         setupFromString( res );
     }

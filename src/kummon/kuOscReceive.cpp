@@ -1,4 +1,5 @@
 ﻿#include "kuOscReceive.h"
+#include "kuConsole.h"
 
 
 //---------------------------------------------------------------------
@@ -30,7 +31,7 @@ void kuOscReceive::setupFromString( const string &s ) {
 
 //---------------------------------------------------------------------
 void kuOscReceive::setupFromDialog( const string &title ) {
-    string res = ofSystemTextBoxDialog( title, toString() );
+    string res = systemTextBoxDialog( title, toString() );
     if ( res != "" ) {
         setupFromString( res );
     }

@@ -1,0 +1,1 @@
+See KuStudio-Guide.pdf for installation details.
