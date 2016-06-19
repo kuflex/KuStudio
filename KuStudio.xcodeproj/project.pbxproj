@@ -8,55 +8,55 @@
 
 /* Begin PBXBuildFile section */
 		0546D1A38E13BD319CC9755B /* OscReceivedElements.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9BF3AA0D4FAA89D0F8A0E545 /* OscReceivedElements.cpp */; };
-		067E51F3BD7E9948156D7A3E /* pbNetwork.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 19712EDCC29147023FAAA983 /* pbNetwork.cpp */; };
-		07F0A9FEE537DF8AAAC90B53 /* converter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 25A15DBD2DE2EEF64E7C94A5 /* converter.cpp */; };
-		0B2FBFC792EA55B047D2F43C /* kuConsole.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 85D7D6624A063154D68228ED /* kuConsole.cpp */; };
 		125506CD3E5F428AAFE5CC65 /* ofxTCPManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F399B91E98DC31CDA6DDACB4 /* ofxTCPManager.cpp */; };
 		17419C131D15BF8400F232AF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17419C101D15BBD400F232AF /* Images.xcassets */; };
-		1A3C48775F80D7EDE981496E /* pbNoiseGenerator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 80E3D6F37A0CE8A75FC134B8 /* pbNoiseGenerator.cpp */; };
-		29D734F0DDECC8C5978185D7 /* testApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00A1BFCBB38848AD0E0C8539 /* testApp.cpp */; };
-		2A459ED70E9C5DE1FE31CF9A /* parsing.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4AE22F8D4BA2AAE573B63544 /* parsing.cpp */; };
-		2FF8132A5D5621F02BDD4F64 /* kuMenu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEDF8081C58E665B66C92923 /* kuMenu.cpp */; };
-		32E656435079A5945114576F /* kuOscReceive.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 099D28C1BF2FA49BBCD2BC9D /* kuOscReceive.cpp */; };
-		4AB941AF8CB20F563F9E4A86 /* kuErrors.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FDC23D9E7540EC7812A093E2 /* kuErrors.cpp */; };
+		17543CB41D170CEF008CD367 /* converter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 17543C861D170CEF008CD367 /* converter.cpp */; };
+		17543CB51D170CEF008CD367 /* GameUtil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 17543C881D170CEF008CD367 /* GameUtil.cpp */; };
+		17543CB61D170CEF008CD367 /* kuButton.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 17543C8A1D170CEF008CD367 /* kuButton.cpp */; };
+		17543CB71D170CEF008CD367 /* kuConsole.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 17543C8C1D170CEF008CD367 /* kuConsole.cpp */; };
+		17543CB81D170CEF008CD367 /* kuErrors.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 17543C8E1D170CEF008CD367 /* kuErrors.cpp */; };
+		17543CB91D170CEF008CD367 /* kuMenu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 17543C901D170CEF008CD367 /* kuMenu.cpp */; };
+		17543CBA1D170CEF008CD367 /* kuMixer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 17543C921D170CEF008CD367 /* kuMixer.cpp */; };
+		17543CBB1D170CEF008CD367 /* kuNavigator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 17543C941D170CEF008CD367 /* kuNavigator.cpp */; };
+		17543CBC1D170CEF008CD367 /* kuObject3D.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 17543C961D170CEF008CD367 /* kuObject3D.cpp */; };
+		17543CBD1D170CEF008CD367 /* kuOscReceive.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 17543C981D170CEF008CD367 /* kuOscReceive.cpp */; };
+		17543CBE1D170CEF008CD367 /* kuOscSend.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 17543C9A1D170CEF008CD367 /* kuOscSend.cpp */; };
+		17543CBF1D170CEF008CD367 /* kuPlayerSend.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 17543C9C1D170CEF008CD367 /* kuPlayerSend.cpp */; };
+		17543CC01D170CEF008CD367 /* kuWavFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 17543C9E1D170CEF008CD367 /* kuWavFile.cpp */; };
+		17543CC11D170CEF008CD367 /* maps.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 17543CA01D170CEF008CD367 /* maps.cpp */; };
+		17543CC21D170CEF008CD367 /* ofxIniSettings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 17543CA21D170CEF008CD367 /* ofxIniSettings.cpp */; };
+		17543CC31D170CEF008CD367 /* ParamMap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 17543CA41D170CEF008CD367 /* ParamMap.cpp */; };
+		17543CC41D170CEF008CD367 /* parsing.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 17543CA61D170CEF008CD367 /* parsing.cpp */; };
+		17543CC51D170CEF008CD367 /* pbFiles.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 17543CA81D170CEF008CD367 /* pbFiles.cpp */; };
+		17543CC61D170CEF008CD367 /* pbGraphicUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 17543CAA1D170CEF008CD367 /* pbGraphicUtils.cpp */; };
+		17543CC71D170CEF008CD367 /* pbNetwork.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 17543CAC1D170CEF008CD367 /* pbNetwork.cpp */; };
+		17543CC81D170CEF008CD367 /* pbNoiseGenerator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 17543CAE1D170CEF008CD367 /* pbNoiseGenerator.cpp */; };
+		17543CC91D170CEF008CD367 /* pbOscReceiver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 17543CB01D170CEF008CD367 /* pbOscReceiver.cpp */; };
+		17543CCA1D170CEF008CD367 /* pbTextureUtil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 17543CB21D170CEF008CD367 /* pbTextureUtil.cpp */; };
+		17543CD41D170D12008CD367 /* kusProject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 17543CCB1D170D11008CD367 /* kusProject.cpp */; };
+		17543CD51D170D12008CD367 /* kusState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 17543CCD1D170D11008CD367 /* kusState.cpp */; };
+		17543CD61D170D12008CD367 /* kusTrack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 17543CCF1D170D12008CD367 /* kusTrack.cpp */; };
+		17543CD71D170D12008CD367 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 17543CD11D170D12008CD367 /* main.cpp */; };
+		17543CD81D170D12008CD367 /* testApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 17543CD21D170D12008CD367 /* testApp.cpp */; };
 		4ADB88E2FB52E76A471065DE /* ofxOscParameterSync.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0AED834CE4DEC5260AF302A2 /* ofxOscParameterSync.cpp */; };
-		4F22A3AF1E9E2D10F1172951 /* pbOscReceiver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0DE98F0F093A7E9FFF3647DD /* pbOscReceiver.cpp */; };
 		510CAFE035E576A4E1502D52 /* UdpSocket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6DEF695B88BA5FAACEAA937 /* UdpSocket.cpp */; };
 		5864AD82E20F15536D054EA3 /* ofxOscMessage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DF49D76C45D5DB505A234880 /* ofxOscMessage.cpp */; };
 		5A4349E9754D6FA14C0F2A3A /* tinyxmlparser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC5DA1C87211D4F6377DA719 /* tinyxmlparser.cpp */; };
-		5B723CDC39115246369218F8 /* GameUtil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CACBB04B1C26F12B246DE7F /* GameUtil.cpp */; };
-		611CEFFE86E76FB4FA4E709E /* kuMixer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F1B1E9AC006B425F157F33C /* kuMixer.cpp */; };
 		62545D179C94265CA1389D4A /* OscOutboundPacketStream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 63A47AC60FFAFC3BF093EC0F /* OscOutboundPacketStream.cpp */; };
 		63B57AC5BF4EF088491E0317 /* ofxXmlSettings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 50DF87D612C5AAE17AAFA6C0 /* ofxXmlSettings.cpp */; };
 		640279EE111671BD026CB013 /* ofxOscReceiver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C2FAC65C491D4231379F3298 /* ofxOscReceiver.cpp */; };
 		66CA411C5A9664E27326BF36 /* ofxTCPServer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1C085E327DAB912CFA2A443D /* ofxTCPServer.cpp */; };
 		67FE4C7B15C2F0478C8126C2 /* NetworkingUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3B361208CD4107E479F04E7B /* NetworkingUtils.cpp */; };
 		72A929D3561B8232A182ABFC /* ofxOscBundle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 65EEFA3DA3526E9CDD9C21F9 /* ofxOscBundle.cpp */; };
-		72B77EF0F0678A6BEC23C6AE /* kuPlayerSend.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 644F31E429294D2E9641E040 /* kuPlayerSend.cpp */; };
-		78921F4A5BEF9A368C867CC2 /* kuObject3D.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D700270255E71C239A7FB940 /* kuObject3D.cpp */; };
-		7AD0CD0E868B0F1167E111DB /* maps.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15F31499079FA17EF629EBCB /* maps.cpp */; };
-		84000E6701168063039586C6 /* kuWavFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C2CF236C7ED59EB7BBC0190E /* kuWavFile.cpp */; };
-		8445F35019C87BC09D90748C /* kuButton.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5BFF74E312EC321D2EFA2B59 /* kuButton.cpp */; };
 		879A251454401BC0B6E4F238 /* OscTypes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D9BFFBBF4CC43DEE890B3C3E /* OscTypes.cpp */; };
-		87B5118AE210E37D05C1613D /* kusProject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 320CF877BE600F870256878F /* kusProject.cpp */; };
-		8AE939610B2E3F611DB7ADC4 /* pbFiles.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E63ABE2C9FDE23F18047C786 /* pbFiles.cpp */; };
 		8F5205AEF8861EF234F0651A /* ofxOscSender.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 81967292BFC87A0144BD32C6 /* ofxOscSender.cpp */; };
 		933A2227713C720CEFF80FD9 /* tinyxml.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B40EDA85BEB63E46785BC29 /* tinyxml.cpp */; };
 		960D20B191346612D5C05A6A /* ofxTCPClient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF88F02779DD820913ACEA06 /* ofxTCPClient.cpp */; };
 		9D44DC88EF9E7991B4A09951 /* tinyxmlerror.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 832BDC407620CDBA568B713D /* tinyxmlerror.cpp */; };
-		9E831CE65F61860C7003AE17 /* pbTextureUtil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D6DA2707BFB5668F6FF20267 /* pbTextureUtil.cpp */; };
-		AD71C3EB05DB74C50C9DA791 /* ofxIniSettings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DEB5720441C33CF73A87C414 /* ofxIniSettings.cpp */; };
 		ADE367465D2A8EBAD4C7A8D9 /* IpEndpointName.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ADD194746185E2DA11468377 /* IpEndpointName.cpp */; };
-		B9DF6AF2523B9C4BE66A6929 /* ParamMap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1E0FB8996D6425E7CC1D396E /* ParamMap.cpp */; };
 		C4782ECC372420ACE0615B74 /* OscPrintReceivedElements.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BC8881B3C8C0A1C45F042E7A /* OscPrintReceivedElements.cpp */; };
-		CB0F9F6BCF52B0AEAACF59A2 /* kuOscSend.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 71B6248B722272D125A20AE2 /* kuOscSend.cpp */; };
-		D29BBA90A2A72AAAFF2C92E6 /* pbGraphicUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 79CB2AC0D7E7C7673E800BC4 /* pbGraphicUtils.cpp */; };
 		E2564CF7DDB3713772BB682E /* ofxUDPManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 35BB9BB90DBABFD3B39F8DB6 /* ofxUDPManager.cpp */; };
 		E4328149138ABC9F0047C5CB /* openFrameworksDebug.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4328148138ABC890047C5CB /* openFrameworksDebug.a */; };
-		E4B69E200A3A1BDC003C02F2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4B69E1D0A3A1BDC003C02F2 /* main.cpp */; };
-		ED40C8356241E384E0439391 /* kuNavigator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A46C21113886479E988BC0EB /* kuNavigator.cpp */; };
-		F1284A500B7FE9A1D45479CC /* kusTrack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EEBECBA8E0872517A04440BC /* kusTrack.cpp */; };
-		F74E19C655CB7369503B3081 /* kusState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0C66D0195BA38D182C6F935C /* kusState.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -89,115 +89,115 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		00A1BFCBB38848AD0E0C8539 /* testApp.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = testApp.cpp; path = src/testApp.cpp; sourceTree = SOURCE_ROOT; };
 		00D6D32B84B099226431108C /* ofxOsc.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxOsc.h; path = ../../../addons/ofxOsc/src/ofxOsc.h; sourceTree = SOURCE_ROOT; };
 		01DCC0911400F9ACF5B65578 /* ofxXmlSettings.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxXmlSettings.h; path = ../../../addons/ofxXmlSettings/src/ofxXmlSettings.h; sourceTree = SOURCE_ROOT; };
 		029684CF678F70F6D3537A29 /* OscOutboundPacketStream.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = OscOutboundPacketStream.h; path = ../../../addons/ofxOsc/libs/oscpack/src/osc/OscOutboundPacketStream.h; sourceTree = SOURCE_ROOT; };
-		099D28C1BF2FA49BBCD2BC9D /* kuOscReceive.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = kuOscReceive.cpp; path = src/kummon/kuOscReceive.cpp; sourceTree = SOURCE_ROOT; };
 		0AED834CE4DEC5260AF302A2 /* ofxOscParameterSync.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxOscParameterSync.cpp; path = ../../../addons/ofxOsc/src/ofxOscParameterSync.cpp; sourceTree = SOURCE_ROOT; };
-		0C66D0195BA38D182C6F935C /* kusState.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = kusState.cpp; path = src/kusState.cpp; sourceTree = SOURCE_ROOT; };
-		0DE98F0F093A7E9FFF3647DD /* pbOscReceiver.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = pbOscReceiver.cpp; path = src/kummon/pbOscReceiver.cpp; sourceTree = SOURCE_ROOT; };
-		140CB3657962DC761BA2783F /* pbNoiseGenerator.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = pbNoiseGenerator.h; path = src/kummon/pbNoiseGenerator.h; sourceTree = SOURCE_ROOT; };
-		15F31499079FA17EF629EBCB /* maps.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = maps.cpp; path = src/kummon/maps.cpp; sourceTree = SOURCE_ROOT; };
 		17419C101D15BBD400F232AF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = KuStudio/Images.xcassets; sourceTree = "<group>"; };
-		19712EDCC29147023FAAA983 /* pbNetwork.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = pbNetwork.cpp; path = src/kummon/pbNetwork.cpp; sourceTree = SOURCE_ROOT; };
+		17543C861D170CEF008CD367 /* converter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = converter.cpp; path = kummon/converter.cpp; sourceTree = "<group>"; };
+		17543C871D170CEF008CD367 /* converter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = converter.h; path = kummon/converter.h; sourceTree = "<group>"; };
+		17543C881D170CEF008CD367 /* GameUtil.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GameUtil.cpp; path = kummon/GameUtil.cpp; sourceTree = "<group>"; };
+		17543C891D170CEF008CD367 /* GameUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameUtil.h; path = kummon/GameUtil.h; sourceTree = "<group>"; };
+		17543C8A1D170CEF008CD367 /* kuButton.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = kuButton.cpp; path = kummon/kuButton.cpp; sourceTree = "<group>"; };
+		17543C8B1D170CEF008CD367 /* kuButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = kuButton.h; path = kummon/kuButton.h; sourceTree = "<group>"; };
+		17543C8C1D170CEF008CD367 /* kuConsole.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = kuConsole.cpp; path = kummon/kuConsole.cpp; sourceTree = "<group>"; };
+		17543C8D1D170CEF008CD367 /* kuConsole.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = kuConsole.h; path = kummon/kuConsole.h; sourceTree = "<group>"; };
+		17543C8E1D170CEF008CD367 /* kuErrors.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = kuErrors.cpp; path = kummon/kuErrors.cpp; sourceTree = "<group>"; };
+		17543C8F1D170CEF008CD367 /* kuErrors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = kuErrors.h; path = kummon/kuErrors.h; sourceTree = "<group>"; };
+		17543C901D170CEF008CD367 /* kuMenu.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = kuMenu.cpp; path = kummon/kuMenu.cpp; sourceTree = "<group>"; };
+		17543C911D170CEF008CD367 /* kuMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = kuMenu.h; path = kummon/kuMenu.h; sourceTree = "<group>"; };
+		17543C921D170CEF008CD367 /* kuMixer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = kuMixer.cpp; path = kummon/kuMixer.cpp; sourceTree = "<group>"; };
+		17543C931D170CEF008CD367 /* kuMixer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = kuMixer.h; path = kummon/kuMixer.h; sourceTree = "<group>"; };
+		17543C941D170CEF008CD367 /* kuNavigator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = kuNavigator.cpp; path = kummon/kuNavigator.cpp; sourceTree = "<group>"; };
+		17543C951D170CEF008CD367 /* kuNavigator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = kuNavigator.h; path = kummon/kuNavigator.h; sourceTree = "<group>"; };
+		17543C961D170CEF008CD367 /* kuObject3D.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = kuObject3D.cpp; path = kummon/kuObject3D.cpp; sourceTree = "<group>"; };
+		17543C971D170CEF008CD367 /* kuObject3D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = kuObject3D.h; path = kummon/kuObject3D.h; sourceTree = "<group>"; };
+		17543C981D170CEF008CD367 /* kuOscReceive.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = kuOscReceive.cpp; path = kummon/kuOscReceive.cpp; sourceTree = "<group>"; };
+		17543C991D170CEF008CD367 /* kuOscReceive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = kuOscReceive.h; path = kummon/kuOscReceive.h; sourceTree = "<group>"; };
+		17543C9A1D170CEF008CD367 /* kuOscSend.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = kuOscSend.cpp; path = kummon/kuOscSend.cpp; sourceTree = "<group>"; };
+		17543C9B1D170CEF008CD367 /* kuOscSend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = kuOscSend.h; path = kummon/kuOscSend.h; sourceTree = "<group>"; };
+		17543C9C1D170CEF008CD367 /* kuPlayerSend.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = kuPlayerSend.cpp; path = kummon/kuPlayerSend.cpp; sourceTree = "<group>"; };
+		17543C9D1D170CEF008CD367 /* kuPlayerSend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = kuPlayerSend.h; path = kummon/kuPlayerSend.h; sourceTree = "<group>"; };
+		17543C9E1D170CEF008CD367 /* kuWavFile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = kuWavFile.cpp; path = kummon/kuWavFile.cpp; sourceTree = "<group>"; };
+		17543C9F1D170CEF008CD367 /* kuWavFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = kuWavFile.h; path = kummon/kuWavFile.h; sourceTree = "<group>"; };
+		17543CA01D170CEF008CD367 /* maps.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = maps.cpp; path = kummon/maps.cpp; sourceTree = "<group>"; };
+		17543CA11D170CEF008CD367 /* maps.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = maps.h; path = kummon/maps.h; sourceTree = "<group>"; };
+		17543CA21D170CEF008CD367 /* ofxIniSettings.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ofxIniSettings.cpp; path = kummon/ofxIniSettings.cpp; sourceTree = "<group>"; };
+		17543CA31D170CEF008CD367 /* ofxIniSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ofxIniSettings.h; path = kummon/ofxIniSettings.h; sourceTree = "<group>"; };
+		17543CA41D170CEF008CD367 /* ParamMap.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ParamMap.cpp; path = kummon/ParamMap.cpp; sourceTree = "<group>"; };
+		17543CA51D170CEF008CD367 /* ParamMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ParamMap.h; path = kummon/ParamMap.h; sourceTree = "<group>"; };
+		17543CA61D170CEF008CD367 /* parsing.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = parsing.cpp; path = kummon/parsing.cpp; sourceTree = "<group>"; };
+		17543CA71D170CEF008CD367 /* parsing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = parsing.h; path = kummon/parsing.h; sourceTree = "<group>"; };
+		17543CA81D170CEF008CD367 /* pbFiles.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = pbFiles.cpp; path = kummon/pbFiles.cpp; sourceTree = "<group>"; };
+		17543CA91D170CEF008CD367 /* pbFiles.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = pbFiles.h; path = kummon/pbFiles.h; sourceTree = "<group>"; };
+		17543CAA1D170CEF008CD367 /* pbGraphicUtils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = pbGraphicUtils.cpp; path = kummon/pbGraphicUtils.cpp; sourceTree = "<group>"; };
+		17543CAB1D170CEF008CD367 /* pbGraphicUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = pbGraphicUtils.h; path = kummon/pbGraphicUtils.h; sourceTree = "<group>"; };
+		17543CAC1D170CEF008CD367 /* pbNetwork.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = pbNetwork.cpp; path = kummon/pbNetwork.cpp; sourceTree = "<group>"; };
+		17543CAD1D170CEF008CD367 /* pbNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = pbNetwork.h; path = kummon/pbNetwork.h; sourceTree = "<group>"; };
+		17543CAE1D170CEF008CD367 /* pbNoiseGenerator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = pbNoiseGenerator.cpp; path = kummon/pbNoiseGenerator.cpp; sourceTree = "<group>"; };
+		17543CAF1D170CEF008CD367 /* pbNoiseGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = pbNoiseGenerator.h; path = kummon/pbNoiseGenerator.h; sourceTree = "<group>"; };
+		17543CB01D170CEF008CD367 /* pbOscReceiver.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = pbOscReceiver.cpp; path = kummon/pbOscReceiver.cpp; sourceTree = "<group>"; };
+		17543CB11D170CEF008CD367 /* pbOscReceiver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = pbOscReceiver.h; path = kummon/pbOscReceiver.h; sourceTree = "<group>"; };
+		17543CB21D170CEF008CD367 /* pbTextureUtil.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = pbTextureUtil.cpp; path = kummon/pbTextureUtil.cpp; sourceTree = "<group>"; };
+		17543CB31D170CEF008CD367 /* pbTextureUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = pbTextureUtil.h; path = kummon/pbTextureUtil.h; sourceTree = "<group>"; };
+		17543CCB1D170D11008CD367 /* kusProject.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = kusProject.cpp; path = src/kusProject.cpp; sourceTree = "<group>"; };
+		17543CCC1D170D11008CD367 /* kusProject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = kusProject.h; path = src/kusProject.h; sourceTree = "<group>"; };
+		17543CCD1D170D11008CD367 /* kusState.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = kusState.cpp; path = src/kusState.cpp; sourceTree = "<group>"; };
+		17543CCE1D170D12008CD367 /* kusState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = kusState.h; path = src/kusState.h; sourceTree = "<group>"; };
+		17543CCF1D170D12008CD367 /* kusTrack.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = kusTrack.cpp; path = src/kusTrack.cpp; sourceTree = "<group>"; };
+		17543CD01D170D12008CD367 /* kusTrack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = kusTrack.h; path = src/kusTrack.h; sourceTree = "<group>"; };
+		17543CD11D170D12008CD367 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = src/main.cpp; sourceTree = "<group>"; };
+		17543CD21D170D12008CD367 /* testApp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = testApp.cpp; path = src/testApp.cpp; sourceTree = "<group>"; };
+		17543CD31D170D12008CD367 /* testApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = testApp.h; path = src/testApp.h; sourceTree = "<group>"; };
 		1C085E327DAB912CFA2A443D /* ofxTCPServer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxTCPServer.cpp; path = ../../../addons/ofxNetwork/src/ofxTCPServer.cpp; sourceTree = SOURCE_ROOT; };
 		1DFA26F2C6BBD1B8AC24C0B1 /* ofxNetworkUtils.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxNetworkUtils.h; path = ../../../addons/ofxNetwork/src/ofxNetworkUtils.h; sourceTree = SOURCE_ROOT; };
-		1E0FB8996D6425E7CC1D396E /* ParamMap.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ParamMap.cpp; path = src/kummon/ParamMap.cpp; sourceTree = SOURCE_ROOT; };
-		1FFCCE550F4B50B85D7A8539 /* kuObject3D.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = kuObject3D.h; path = src/kummon/kuObject3D.h; sourceTree = SOURCE_ROOT; };
-		20E7E9E03BC8FF633967407F /* kuErrors.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = kuErrors.h; path = src/kummon/kuErrors.h; sourceTree = SOURCE_ROOT; };
 		20F35AFADAF0068B067E713F /* OscReceivedElements.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = OscReceivedElements.h; path = ../../../addons/ofxOsc/libs/oscpack/src/osc/OscReceivedElements.h; sourceTree = SOURCE_ROOT; };
 		23640F57DF6C4BB6BFC5DA4C /* PacketListener.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = PacketListener.h; path = ../../../addons/ofxOsc/libs/oscpack/src/ip/PacketListener.h; sourceTree = SOURCE_ROOT; };
-		2377C3BBF92FF2DA6C4FFD98 /* kusState.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = kusState.h; path = src/kusState.h; sourceTree = SOURCE_ROOT; };
-		25A15DBD2DE2EEF64E7C94A5 /* converter.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = converter.cpp; path = src/kummon/converter.cpp; sourceTree = SOURCE_ROOT; };
 		26EF3E71A07C6948EAF6709E /* ofxTCPManager.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxTCPManager.h; path = ../../../addons/ofxNetwork/src/ofxTCPManager.h; sourceTree = SOURCE_ROOT; };
 		2B40EDA85BEB63E46785BC29 /* tinyxml.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = tinyxml.cpp; path = ../../../addons/ofxXmlSettings/libs/tinyxml.cpp; sourceTree = SOURCE_ROOT; };
-		2D129AB0F7D46B8DFCEADEDB /* testApp.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = testApp.h; path = src/testApp.h; sourceTree = SOURCE_ROOT; };
 		2F519EB3B0DCD7378FB86ABE /* ofxUDPManager.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxUDPManager.h; path = ../../../addons/ofxNetwork/src/ofxUDPManager.h; sourceTree = SOURCE_ROOT; };
 		2FD4B0329909D3527F003494 /* UdpSocket.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = UdpSocket.h; path = ../../../addons/ofxOsc/libs/oscpack/src/ip/UdpSocket.h; sourceTree = SOURCE_ROOT; };
 		30841703B7AC8487D16FB4AA /* ofxTCPServer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxTCPServer.h; path = ../../../addons/ofxNetwork/src/ofxTCPServer.h; sourceTree = SOURCE_ROOT; };
-		320CF877BE600F870256878F /* kusProject.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = kusProject.cpp; path = src/kusProject.cpp; sourceTree = SOURCE_ROOT; };
 		35BB9BB90DBABFD3B39F8DB6 /* ofxUDPManager.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxUDPManager.cpp; path = ../../../addons/ofxNetwork/src/ofxUDPManager.cpp; sourceTree = SOURCE_ROOT; };
 		3B361208CD4107E479F04E7B /* NetworkingUtils.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = NetworkingUtils.cpp; path = ../../../addons/ofxOsc/libs/oscpack/src/ip/posix/NetworkingUtils.cpp; sourceTree = SOURCE_ROOT; };
-		3BDAA15A3BCDD5BDDC83D902 /* kuNavigator.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = kuNavigator.h; path = src/kummon/kuNavigator.h; sourceTree = SOURCE_ROOT; };
-		3C6E563C507531A6F51997FA /* maps.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = maps.h; path = src/kummon/maps.h; sourceTree = SOURCE_ROOT; };
-		3D23F4ADB4ACFF348DFEC730 /* pbOscReceiver.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = pbOscReceiver.h; path = src/kummon/pbOscReceiver.h; sourceTree = SOURCE_ROOT; };
 		444657A12E59D0ED86981498 /* TimerListener.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = TimerListener.h; path = ../../../addons/ofxOsc/libs/oscpack/src/ip/TimerListener.h; sourceTree = SOURCE_ROOT; };
 		48974F980F51769171D0B2F5 /* IpEndpointName.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = IpEndpointName.h; path = ../../../addons/ofxOsc/libs/oscpack/src/ip/IpEndpointName.h; sourceTree = SOURCE_ROOT; };
-		4AE22F8D4BA2AAE573B63544 /* parsing.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = parsing.cpp; path = src/kummon/parsing.cpp; sourceTree = SOURCE_ROOT; };
 		4E95FB446A9C9C6F0DE12D75 /* OscPrintReceivedElements.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = OscPrintReceivedElements.h; path = ../../../addons/ofxOsc/libs/oscpack/src/osc/OscPrintReceivedElements.h; sourceTree = SOURCE_ROOT; };
-		4F1B1E9AC006B425F157F33C /* kuMixer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = kuMixer.cpp; path = src/kummon/kuMixer.cpp; sourceTree = SOURCE_ROOT; };
 		50DF87D612C5AAE17AAFA6C0 /* ofxXmlSettings.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxXmlSettings.cpp; path = ../../../addons/ofxXmlSettings/src/ofxXmlSettings.cpp; sourceTree = SOURCE_ROOT; };
-		571A9F092B1DAEB74A9D4668 /* pbFiles.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = pbFiles.h; path = src/kummon/pbFiles.h; sourceTree = SOURCE_ROOT; };
-		5BFF74E312EC321D2EFA2B59 /* kuButton.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = kuButton.cpp; path = src/kummon/kuButton.cpp; sourceTree = SOURCE_ROOT; };
 		63A47AC60FFAFC3BF093EC0F /* OscOutboundPacketStream.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = OscOutboundPacketStream.cpp; path = ../../../addons/ofxOsc/libs/oscpack/src/osc/OscOutboundPacketStream.cpp; sourceTree = SOURCE_ROOT; };
-		644F31E429294D2E9641E040 /* kuPlayerSend.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = kuPlayerSend.cpp; path = src/kummon/kuPlayerSend.cpp; sourceTree = SOURCE_ROOT; };
-		64CBA09AA25327CB112AEA7A /* pbNetwork.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = pbNetwork.h; path = src/kummon/pbNetwork.h; sourceTree = SOURCE_ROOT; };
 		65EEFA3DA3526E9CDD9C21F9 /* ofxOscBundle.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxOscBundle.cpp; path = ../../../addons/ofxOsc/src/ofxOscBundle.cpp; sourceTree = SOURCE_ROOT; };
 		6B65E6930994CC4B2D2B8B33 /* OscPacketListener.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = OscPacketListener.h; path = ../../../addons/ofxOsc/libs/oscpack/src/osc/OscPacketListener.h; sourceTree = SOURCE_ROOT; };
-		6C24BED810B1E66908B6B30B /* kuOscSend.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = kuOscSend.h; path = src/kummon/kuOscSend.h; sourceTree = SOURCE_ROOT; };
-		71B6248B722272D125A20AE2 /* kuOscSend.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = kuOscSend.cpp; path = src/kummon/kuOscSend.cpp; sourceTree = SOURCE_ROOT; };
-		75D3DE7EEE8104122C7F3794 /* ofxIniSettings.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxIniSettings.h; path = src/kummon/ofxIniSettings.h; sourceTree = SOURCE_ROOT; };
 		7689F8A0F3D0B7635A8C3104 /* ofxOscArg.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxOscArg.h; path = ../../../addons/ofxOsc/src/ofxOscArg.h; sourceTree = SOURCE_ROOT; };
-		78BDB3F7049A1B5828A2A0C7 /* kuMenu.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = kuMenu.h; path = src/kummon/kuMenu.h; sourceTree = SOURCE_ROOT; };
-		79CB2AC0D7E7C7673E800BC4 /* pbGraphicUtils.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = pbGraphicUtils.cpp; path = src/kummon/pbGraphicUtils.cpp; sourceTree = SOURCE_ROOT; };
-		80378F3D5F9A6D34848D9707 /* kuConsole.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = kuConsole.h; path = src/kummon/kuConsole.h; sourceTree = SOURCE_ROOT; };
-		80E3D6F37A0CE8A75FC134B8 /* pbNoiseGenerator.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = pbNoiseGenerator.cpp; path = src/kummon/pbNoiseGenerator.cpp; sourceTree = SOURCE_ROOT; };
 		81967292BFC87A0144BD32C6 /* ofxOscSender.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxOscSender.cpp; path = ../../../addons/ofxOsc/src/ofxOscSender.cpp; sourceTree = SOURCE_ROOT; };
 		832BDC407620CDBA568B713D /* tinyxmlerror.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = tinyxmlerror.cpp; path = ../../../addons/ofxXmlSettings/libs/tinyxmlerror.cpp; sourceTree = SOURCE_ROOT; };
-		85D7D6624A063154D68228ED /* kuConsole.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = kuConsole.cpp; path = src/kummon/kuConsole.cpp; sourceTree = SOURCE_ROOT; };
 		8B30E93FD3D3475EED522A0E /* ofxOscBundle.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxOscBundle.h; path = ../../../addons/ofxOsc/src/ofxOscBundle.h; sourceTree = SOURCE_ROOT; };
 		8C75AFC8774A62495DD53464 /* ofxOscReceiver.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxOscReceiver.h; path = ../../../addons/ofxOsc/src/ofxOscReceiver.h; sourceTree = SOURCE_ROOT; };
-		8CACBB04B1C26F12B246DE7F /* GameUtil.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = GameUtil.cpp; path = src/kummon/GameUtil.cpp; sourceTree = SOURCE_ROOT; };
 		9BF3AA0D4FAA89D0F8A0E545 /* OscReceivedElements.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = OscReceivedElements.cpp; path = ../../../addons/ofxOsc/libs/oscpack/src/osc/OscReceivedElements.cpp; sourceTree = SOURCE_ROOT; };
-		9D69D8DA6394AA5F22AD6FB3 /* GameUtil.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = GameUtil.h; path = src/kummon/GameUtil.h; sourceTree = SOURCE_ROOT; };
-		9DB0FA19A86D1A2EEDEB7FDD /* parsing.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = parsing.h; path = src/kummon/parsing.h; sourceTree = SOURCE_ROOT; };
 		9F7986DC4EB05E75FCE2C777 /* ofxOscSender.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxOscSender.h; path = ../../../addons/ofxOsc/src/ofxOscSender.h; sourceTree = SOURCE_ROOT; };
 		A2AAA8CA403479E6FCDF920E /* OscHostEndianness.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = OscHostEndianness.h; path = ../../../addons/ofxOsc/libs/oscpack/src/osc/OscHostEndianness.h; sourceTree = SOURCE_ROOT; };
-		A46C21113886479E988BC0EB /* kuNavigator.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = kuNavigator.cpp; path = src/kummon/kuNavigator.cpp; sourceTree = SOURCE_ROOT; };
-		AC9CC4664BB0699B041C2807 /* pbGraphicUtils.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = pbGraphicUtils.h; path = src/kummon/pbGraphicUtils.h; sourceTree = SOURCE_ROOT; };
 		ADD194746185E2DA11468377 /* IpEndpointName.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = IpEndpointName.cpp; path = ../../../addons/ofxOsc/libs/oscpack/src/ip/IpEndpointName.cpp; sourceTree = SOURCE_ROOT; };
 		AE335EB4709BFD4671EEAC84 /* MessageMappingOscPacketListener.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = MessageMappingOscPacketListener.h; path = ../../../addons/ofxOsc/libs/oscpack/src/osc/MessageMappingOscPacketListener.h; sourceTree = SOURCE_ROOT; };
-		AF1923809F9BA23E7545EF4B /* kuPlayerSend.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = kuPlayerSend.h; path = src/kummon/kuPlayerSend.h; sourceTree = SOURCE_ROOT; };
 		B21E7E5F548EEA92F368040B /* tinyxml.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = tinyxml.h; path = ../../../addons/ofxXmlSettings/libs/tinyxml.h; sourceTree = SOURCE_ROOT; };
 		B31C608870ECEB2490A93736 /* ofxOscParameterSync.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxOscParameterSync.h; path = ../../../addons/ofxOsc/src/ofxOscParameterSync.h; sourceTree = SOURCE_ROOT; };
 		BC8881B3C8C0A1C45F042E7A /* OscPrintReceivedElements.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = OscPrintReceivedElements.cpp; path = ../../../addons/ofxOsc/libs/oscpack/src/osc/OscPrintReceivedElements.cpp; sourceTree = SOURCE_ROOT; };
 		BF88F02779DD820913ACEA06 /* ofxTCPClient.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxTCPClient.cpp; path = ../../../addons/ofxNetwork/src/ofxTCPClient.cpp; sourceTree = SOURCE_ROOT; };
-		C245E36A5B070C83666078DB /* kusProject.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = kusProject.h; path = src/kusProject.h; sourceTree = SOURCE_ROOT; };
-		C2CF236C7ED59EB7BBC0190E /* kuWavFile.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = kuWavFile.cpp; path = src/kummon/kuWavFile.cpp; sourceTree = SOURCE_ROOT; };
 		C2FAC65C491D4231379F3298 /* ofxOscReceiver.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxOscReceiver.cpp; path = ../../../addons/ofxOsc/src/ofxOscReceiver.cpp; sourceTree = SOURCE_ROOT; };
 		C58862C6D212C8E8A83810F4 /* ofxOscMessage.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxOscMessage.h; path = ../../../addons/ofxOsc/src/ofxOscMessage.h; sourceTree = SOURCE_ROOT; };
 		C6937888E126BADC8777423B /* OscTypes.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = OscTypes.h; path = ../../../addons/ofxOsc/libs/oscpack/src/osc/OscTypes.h; sourceTree = SOURCE_ROOT; };
 		C8C9B823D7872F9CBF03A813 /* ofxTCPClient.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxTCPClient.h; path = ../../../addons/ofxNetwork/src/ofxTCPClient.h; sourceTree = SOURCE_ROOT; };
-		CEDF8081C58E665B66C92923 /* kuMenu.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = kuMenu.cpp; path = src/kummon/kuMenu.cpp; sourceTree = SOURCE_ROOT; };
-		D6DA2707BFB5668F6FF20267 /* pbTextureUtil.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = pbTextureUtil.cpp; path = src/kummon/pbTextureUtil.cpp; sourceTree = SOURCE_ROOT; };
-		D700270255E71C239A7FB940 /* kuObject3D.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = kuObject3D.cpp; path = src/kummon/kuObject3D.cpp; sourceTree = SOURCE_ROOT; };
-		D7A5847B153DCD1B9E174D7A /* kuWavFile.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = kuWavFile.h; path = src/kummon/kuWavFile.h; sourceTree = SOURCE_ROOT; };
 		D9BFFBBF4CC43DEE890B3C3E /* OscTypes.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = OscTypes.cpp; path = ../../../addons/ofxOsc/libs/oscpack/src/osc/OscTypes.cpp; sourceTree = SOURCE_ROOT; };
-		DA6515FDE6B43394690A41AF /* pbTextureUtil.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = pbTextureUtil.h; path = src/kummon/pbTextureUtil.h; sourceTree = SOURCE_ROOT; };
-		DEB5720441C33CF73A87C414 /* ofxIniSettings.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxIniSettings.cpp; path = src/kummon/ofxIniSettings.cpp; sourceTree = SOURCE_ROOT; };
 		DF49D76C45D5DB505A234880 /* ofxOscMessage.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxOscMessage.cpp; path = ../../../addons/ofxOsc/src/ofxOscMessage.cpp; sourceTree = SOURCE_ROOT; };
-		DF93E245F745F82822F1A28F /* kuMixer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = kuMixer.h; path = src/kummon/kuMixer.h; sourceTree = SOURCE_ROOT; };
-		E3B22D32A75BB1AE9DB38AC6 /* converter.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = converter.h; path = src/kummon/converter.h; sourceTree = SOURCE_ROOT; };
 		E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = openFrameworksLib.xcodeproj; path = ../../../libs/openFrameworksCompiled/project/osx/openFrameworksLib.xcodeproj; sourceTree = SOURCE_ROOT; };
 		E4B69B5B0A3A1756003C02F2 /* KuStudioDebug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KuStudioDebug.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E4B69E1D0A3A1BDC003C02F2 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = src/main.cpp; sourceTree = SOURCE_ROOT; };
 		E4B6FCAD0C3E899E008CF71C /* openFrameworks-Info.plist */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.plist.xml; path = "openFrameworks-Info.plist"; sourceTree = "<group>"; };
 		E4EB691F138AFCF100A09F29 /* CoreOF.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = CoreOF.xcconfig; path = ../../../libs/openFrameworksCompiled/project/osx/CoreOF.xcconfig; sourceTree = SOURCE_ROOT; };
 		E4EB6923138AFD0F00A09F29 /* Project.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Project.xcconfig; sourceTree = "<group>"; };
-		E63ABE2C9FDE23F18047C786 /* pbFiles.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = pbFiles.cpp; path = src/kummon/pbFiles.cpp; sourceTree = SOURCE_ROOT; };
 		E6DEF695B88BA5FAACEAA937 /* UdpSocket.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = UdpSocket.cpp; path = ../../../addons/ofxOsc/libs/oscpack/src/ip/posix/UdpSocket.cpp; sourceTree = SOURCE_ROOT; };
-		EEBECBA8E0872517A04440BC /* kusTrack.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = kusTrack.cpp; path = src/kusTrack.cpp; sourceTree = SOURCE_ROOT; };
 		F399B91E98DC31CDA6DDACB4 /* ofxTCPManager.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxTCPManager.cpp; path = ../../../addons/ofxNetwork/src/ofxTCPManager.cpp; sourceTree = SOURCE_ROOT; };
 		F4F5B6B8BA2BD52C646ED908 /* OscException.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = OscException.h; path = ../../../addons/ofxOsc/libs/oscpack/src/osc/OscException.h; sourceTree = SOURCE_ROOT; };
 		F66993296A3AEEC70FD444F5 /* ofxNetwork.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxNetwork.h; path = ../../../addons/ofxNetwork/src/ofxNetwork.h; sourceTree = SOURCE_ROOT; };
 		F7FBC56859535E597B24BB91 /* NetworkingUtils.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = NetworkingUtils.h; path = ../../../addons/ofxOsc/libs/oscpack/src/ip/NetworkingUtils.h; sourceTree = SOURCE_ROOT; };
-		F86BA798D72DC5F3A1FC9F40 /* kuButton.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = kuButton.h; path = src/kummon/kuButton.h; sourceTree = SOURCE_ROOT; };
-		F8C6CE91A9ADD9E53E96C5B4 /* kusTrack.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = kusTrack.h; path = src/kusTrack.h; sourceTree = SOURCE_ROOT; };
-		FA3398DB935B5875A3D30568 /* kuOscReceive.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = kuOscReceive.h; path = src/kummon/kuOscReceive.h; sourceTree = SOURCE_ROOT; };
 		FC5DA1C87211D4F6377DA719 /* tinyxmlparser.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = tinyxmlparser.cpp; path = ../../../addons/ofxXmlSettings/libs/tinyxmlparser.cpp; sourceTree = SOURCE_ROOT; };
-		FDC23D9E7540EC7812A093E2 /* kuErrors.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = kuErrors.cpp; path = src/kummon/kuErrors.cpp; sourceTree = SOURCE_ROOT; };
-		FFAC449F3EF66730C46D129B /* ParamMap.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ParamMap.h; path = src/kummon/ParamMap.h; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -276,52 +276,52 @@
 		41F6C6098BEA61A6CF6065E0 /* kummon */ = {
 			isa = PBXGroup;
 			children = (
-				25A15DBD2DE2EEF64E7C94A5 /* converter.cpp */,
-				E3B22D32A75BB1AE9DB38AC6 /* converter.h */,
-				8CACBB04B1C26F12B246DE7F /* GameUtil.cpp */,
-				9D69D8DA6394AA5F22AD6FB3 /* GameUtil.h */,
-				5BFF74E312EC321D2EFA2B59 /* kuButton.cpp */,
-				F86BA798D72DC5F3A1FC9F40 /* kuButton.h */,
-				85D7D6624A063154D68228ED /* kuConsole.cpp */,
-				80378F3D5F9A6D34848D9707 /* kuConsole.h */,
-				FDC23D9E7540EC7812A093E2 /* kuErrors.cpp */,
-				20E7E9E03BC8FF633967407F /* kuErrors.h */,
-				CEDF8081C58E665B66C92923 /* kuMenu.cpp */,
-				78BDB3F7049A1B5828A2A0C7 /* kuMenu.h */,
-				4F1B1E9AC006B425F157F33C /* kuMixer.cpp */,
-				DF93E245F745F82822F1A28F /* kuMixer.h */,
-				A46C21113886479E988BC0EB /* kuNavigator.cpp */,
-				3BDAA15A3BCDD5BDDC83D902 /* kuNavigator.h */,
-				D700270255E71C239A7FB940 /* kuObject3D.cpp */,
-				1FFCCE550F4B50B85D7A8539 /* kuObject3D.h */,
-				099D28C1BF2FA49BBCD2BC9D /* kuOscReceive.cpp */,
-				FA3398DB935B5875A3D30568 /* kuOscReceive.h */,
-				71B6248B722272D125A20AE2 /* kuOscSend.cpp */,
-				6C24BED810B1E66908B6B30B /* kuOscSend.h */,
-				644F31E429294D2E9641E040 /* kuPlayerSend.cpp */,
-				AF1923809F9BA23E7545EF4B /* kuPlayerSend.h */,
-				C2CF236C7ED59EB7BBC0190E /* kuWavFile.cpp */,
-				D7A5847B153DCD1B9E174D7A /* kuWavFile.h */,
-				15F31499079FA17EF629EBCB /* maps.cpp */,
-				3C6E563C507531A6F51997FA /* maps.h */,
-				DEB5720441C33CF73A87C414 /* ofxIniSettings.cpp */,
-				75D3DE7EEE8104122C7F3794 /* ofxIniSettings.h */,
-				1E0FB8996D6425E7CC1D396E /* ParamMap.cpp */,
-				FFAC449F3EF66730C46D129B /* ParamMap.h */,
-				4AE22F8D4BA2AAE573B63544 /* parsing.cpp */,
-				9DB0FA19A86D1A2EEDEB7FDD /* parsing.h */,
-				E63ABE2C9FDE23F18047C786 /* pbFiles.cpp */,
-				571A9F092B1DAEB74A9D4668 /* pbFiles.h */,
-				79CB2AC0D7E7C7673E800BC4 /* pbGraphicUtils.cpp */,
-				AC9CC4664BB0699B041C2807 /* pbGraphicUtils.h */,
-				19712EDCC29147023FAAA983 /* pbNetwork.cpp */,
-				64CBA09AA25327CB112AEA7A /* pbNetwork.h */,
-				80E3D6F37A0CE8A75FC134B8 /* pbNoiseGenerator.cpp */,
-				140CB3657962DC761BA2783F /* pbNoiseGenerator.h */,
-				0DE98F0F093A7E9FFF3647DD /* pbOscReceiver.cpp */,
-				3D23F4ADB4ACFF348DFEC730 /* pbOscReceiver.h */,
-				D6DA2707BFB5668F6FF20267 /* pbTextureUtil.cpp */,
-				DA6515FDE6B43394690A41AF /* pbTextureUtil.h */,
+				17543C861D170CEF008CD367 /* converter.cpp */,
+				17543C871D170CEF008CD367 /* converter.h */,
+				17543C881D170CEF008CD367 /* GameUtil.cpp */,
+				17543C891D170CEF008CD367 /* GameUtil.h */,
+				17543C8A1D170CEF008CD367 /* kuButton.cpp */,
+				17543C8B1D170CEF008CD367 /* kuButton.h */,
+				17543C8C1D170CEF008CD367 /* kuConsole.cpp */,
+				17543C8D1D170CEF008CD367 /* kuConsole.h */,
+				17543C8E1D170CEF008CD367 /* kuErrors.cpp */,
+				17543C8F1D170CEF008CD367 /* kuErrors.h */,
+				17543C901D170CEF008CD367 /* kuMenu.cpp */,
+				17543C911D170CEF008CD367 /* kuMenu.h */,
+				17543C921D170CEF008CD367 /* kuMixer.cpp */,
+				17543C931D170CEF008CD367 /* kuMixer.h */,
+				17543C941D170CEF008CD367 /* kuNavigator.cpp */,
+				17543C951D170CEF008CD367 /* kuNavigator.h */,
+				17543C961D170CEF008CD367 /* kuObject3D.cpp */,
+				17543C971D170CEF008CD367 /* kuObject3D.h */,
+				17543C981D170CEF008CD367 /* kuOscReceive.cpp */,
+				17543C991D170CEF008CD367 /* kuOscReceive.h */,
+				17543C9A1D170CEF008CD367 /* kuOscSend.cpp */,
+				17543C9B1D170CEF008CD367 /* kuOscSend.h */,
+				17543C9C1D170CEF008CD367 /* kuPlayerSend.cpp */,
+				17543C9D1D170CEF008CD367 /* kuPlayerSend.h */,
+				17543C9E1D170CEF008CD367 /* kuWavFile.cpp */,
+				17543C9F1D170CEF008CD367 /* kuWavFile.h */,
+				17543CA01D170CEF008CD367 /* maps.cpp */,
+				17543CA11D170CEF008CD367 /* maps.h */,
+				17543CA21D170CEF008CD367 /* ofxIniSettings.cpp */,
+				17543CA31D170CEF008CD367 /* ofxIniSettings.h */,
+				17543CA41D170CEF008CD367 /* ParamMap.cpp */,
+				17543CA51D170CEF008CD367 /* ParamMap.h */,
+				17543CA61D170CEF008CD367 /* parsing.cpp */,
+				17543CA71D170CEF008CD367 /* parsing.h */,
+				17543CA81D170CEF008CD367 /* pbFiles.cpp */,
+				17543CA91D170CEF008CD367 /* pbFiles.h */,
+				17543CAA1D170CEF008CD367 /* pbGraphicUtils.cpp */,
+				17543CAB1D170CEF008CD367 /* pbGraphicUtils.h */,
+				17543CAC1D170CEF008CD367 /* pbNetwork.cpp */,
+				17543CAD1D170CEF008CD367 /* pbNetwork.h */,
+				17543CAE1D170CEF008CD367 /* pbNoiseGenerator.cpp */,
+				17543CAF1D170CEF008CD367 /* pbNoiseGenerator.h */,
+				17543CB01D170CEF008CD367 /* pbOscReceiver.cpp */,
+				17543CB11D170CEF008CD367 /* pbOscReceiver.h */,
+				17543CB21D170CEF008CD367 /* pbTextureUtil.cpp */,
+				17543CB31D170CEF008CD367 /* pbTextureUtil.h */,
 			);
 			name = kummon;
 			sourceTree = "<group>";
@@ -423,6 +423,15 @@
 				E4B6FCAD0C3E899E008CF71C /* openFrameworks-Info.plist */,
 				E4EB6923138AFD0F00A09F29 /* Project.xcconfig */,
 				E4B69E1C0A3A1BDC003C02F2 /* src */,
+				17543CCB1D170D11008CD367 /* kusProject.cpp */,
+				17543CCC1D170D11008CD367 /* kusProject.h */,
+				17543CCD1D170D11008CD367 /* kusState.cpp */,
+				17543CCE1D170D12008CD367 /* kusState.h */,
+				17543CCF1D170D12008CD367 /* kusTrack.cpp */,
+				17543CD01D170D12008CD367 /* kusTrack.h */,
+				17543CD11D170D12008CD367 /* main.cpp */,
+				17543CD21D170D12008CD367 /* testApp.cpp */,
+				17543CD31D170D12008CD367 /* testApp.h */,
 				E4EEC9E9138DF44700A80321 /* openFrameworks */,
 				BB4B014C10F69532006C3DED /* addons */,
 				6948EE371B920CB800B5AC1A /* local_addons */,
@@ -433,16 +442,7 @@
 		E4B69E1C0A3A1BDC003C02F2 /* src */ = {
 			isa = PBXGroup;
 			children = (
-				E4B69E1D0A3A1BDC003C02F2 /* main.cpp */,
 				41F6C6098BEA61A6CF6065E0 /* kummon */,
-				320CF877BE600F870256878F /* kusProject.cpp */,
-				C245E36A5B070C83666078DB /* kusProject.h */,
-				0C66D0195BA38D182C6F935C /* kusState.cpp */,
-				2377C3BBF92FF2DA6C4FFD98 /* kusState.h */,
-				EEBECBA8E0872517A04440BC /* kusTrack.cpp */,
-				F8C6CE91A9ADD9E53E96C5B4 /* kusTrack.h */,
-				00A1BFCBB38848AD0E0C8539 /* testApp.cpp */,
-				2D129AB0F7D46B8DFCEADEDB /* testApp.h */,
 			);
 			path = src;
 			sourceTree = SOURCE_ROOT;
@@ -578,38 +578,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E4B69E200A3A1BDC003C02F2 /* main.cpp in Sources */,
-				07F0A9FEE537DF8AAAC90B53 /* converter.cpp in Sources */,
-				5B723CDC39115246369218F8 /* GameUtil.cpp in Sources */,
-				8445F35019C87BC09D90748C /* kuButton.cpp in Sources */,
-				0B2FBFC792EA55B047D2F43C /* kuConsole.cpp in Sources */,
-				4AB941AF8CB20F563F9E4A86 /* kuErrors.cpp in Sources */,
-				2FF8132A5D5621F02BDD4F64 /* kuMenu.cpp in Sources */,
-				611CEFFE86E76FB4FA4E709E /* kuMixer.cpp in Sources */,
-				ED40C8356241E384E0439391 /* kuNavigator.cpp in Sources */,
-				78921F4A5BEF9A368C867CC2 /* kuObject3D.cpp in Sources */,
-				32E656435079A5945114576F /* kuOscReceive.cpp in Sources */,
-				CB0F9F6BCF52B0AEAACF59A2 /* kuOscSend.cpp in Sources */,
-				72B77EF0F0678A6BEC23C6AE /* kuPlayerSend.cpp in Sources */,
-				84000E6701168063039586C6 /* kuWavFile.cpp in Sources */,
-				7AD0CD0E868B0F1167E111DB /* maps.cpp in Sources */,
-				AD71C3EB05DB74C50C9DA791 /* ofxIniSettings.cpp in Sources */,
-				B9DF6AF2523B9C4BE66A6929 /* ParamMap.cpp in Sources */,
-				2A459ED70E9C5DE1FE31CF9A /* parsing.cpp in Sources */,
-				8AE939610B2E3F611DB7ADC4 /* pbFiles.cpp in Sources */,
-				D29BBA90A2A72AAAFF2C92E6 /* pbGraphicUtils.cpp in Sources */,
-				067E51F3BD7E9948156D7A3E /* pbNetwork.cpp in Sources */,
-				1A3C48775F80D7EDE981496E /* pbNoiseGenerator.cpp in Sources */,
-				4F22A3AF1E9E2D10F1172951 /* pbOscReceiver.cpp in Sources */,
-				9E831CE65F61860C7003AE17 /* pbTextureUtil.cpp in Sources */,
-				87B5118AE210E37D05C1613D /* kusProject.cpp in Sources */,
-				F74E19C655CB7369503B3081 /* kusState.cpp in Sources */,
-				F1284A500B7FE9A1D45479CC /* kusTrack.cpp in Sources */,
-				29D734F0DDECC8C5978185D7 /* testApp.cpp in Sources */,
+				17543CC71D170CEF008CD367 /* pbNetwork.cpp in Sources */,
+				17543CBD1D170CEF008CD367 /* kuOscReceive.cpp in Sources */,
+				17543CB81D170CEF008CD367 /* kuErrors.cpp in Sources */,
+				17543CBA1D170CEF008CD367 /* kuMixer.cpp in Sources */,
+				17543CB71D170CEF008CD367 /* kuConsole.cpp in Sources */,
+				17543CBB1D170CEF008CD367 /* kuNavigator.cpp in Sources */,
+				17543CC41D170CEF008CD367 /* parsing.cpp in Sources */,
+				17543CC11D170CEF008CD367 /* maps.cpp in Sources */,
+				17543CB41D170CEF008CD367 /* converter.cpp in Sources */,
+				17543CBC1D170CEF008CD367 /* kuObject3D.cpp in Sources */,
+				17543CB91D170CEF008CD367 /* kuMenu.cpp in Sources */,
 				960D20B191346612D5C05A6A /* ofxTCPClient.cpp in Sources */,
 				125506CD3E5F428AAFE5CC65 /* ofxTCPManager.cpp in Sources */,
 				66CA411C5A9664E27326BF36 /* ofxTCPServer.cpp in Sources */,
+				17543CCA1D170CEF008CD367 /* pbTextureUtil.cpp in Sources */,
+				17543CB61D170CEF008CD367 /* kuButton.cpp in Sources */,
 				E2564CF7DDB3713772BB682E /* ofxUDPManager.cpp in Sources */,
+				17543CBF1D170CEF008CD367 /* kuPlayerSend.cpp in Sources */,
 				72A929D3561B8232A182ABFC /* ofxOscBundle.cpp in Sources */,
 				5864AD82E20F15536D054EA3 /* ofxOscMessage.cpp in Sources */,
 				4ADB88E2FB52E76A471065DE /* ofxOscParameterSync.cpp in Sources */,
@@ -617,15 +603,29 @@
 				8F5205AEF8861EF234F0651A /* ofxOscSender.cpp in Sources */,
 				ADE367465D2A8EBAD4C7A8D9 /* IpEndpointName.cpp in Sources */,
 				67FE4C7B15C2F0478C8126C2 /* NetworkingUtils.cpp in Sources */,
+				17543CB51D170CEF008CD367 /* GameUtil.cpp in Sources */,
 				510CAFE035E576A4E1502D52 /* UdpSocket.cpp in Sources */,
+				17543CC31D170CEF008CD367 /* ParamMap.cpp in Sources */,
+				17543CC81D170CEF008CD367 /* pbNoiseGenerator.cpp in Sources */,
 				62545D179C94265CA1389D4A /* OscOutboundPacketStream.cpp in Sources */,
 				C4782ECC372420ACE0615B74 /* OscPrintReceivedElements.cpp in Sources */,
+				17543CC01D170CEF008CD367 /* kuWavFile.cpp in Sources */,
 				0546D1A38E13BD319CC9755B /* OscReceivedElements.cpp in Sources */,
+				17543CC21D170CEF008CD367 /* ofxIniSettings.cpp in Sources */,
+				17543CC61D170CEF008CD367 /* pbGraphicUtils.cpp in Sources */,
 				879A251454401BC0B6E4F238 /* OscTypes.cpp in Sources */,
 				63B57AC5BF4EF088491E0317 /* ofxXmlSettings.cpp in Sources */,
+				17543CD51D170D12008CD367 /* kusState.cpp in Sources */,
+				17543CD41D170D12008CD367 /* kusProject.cpp in Sources */,
+				17543CD61D170D12008CD367 /* kusTrack.cpp in Sources */,
 				933A2227713C720CEFF80FD9 /* tinyxml.cpp in Sources */,
+				17543CBE1D170CEF008CD367 /* kuOscSend.cpp in Sources */,
+				17543CD71D170D12008CD367 /* main.cpp in Sources */,
+				17543CC91D170CEF008CD367 /* pbOscReceiver.cpp in Sources */,
 				9D44DC88EF9E7991B4A09951 /* tinyxmlerror.cpp in Sources */,
+				17543CD81D170D12008CD367 /* testApp.cpp in Sources */,
 				5A4349E9754D6FA14C0F2A3A /* tinyxmlparser.cpp in Sources */,
+				17543CC51D170CEF008CD367 /* pbFiles.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
