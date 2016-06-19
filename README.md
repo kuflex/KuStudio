@@ -38,3 +38,9 @@ Windows: Visual Studio 2015 C++ (Express), openFrameworks 0.9.3.
 Linux: not tested, but should work too.
 
 You can download sources for older openFrameworks versions at https://sourceforge.net/p/kustudio 
+
+### Support ###
+
+For quick support, please write to perevalovds@gmail.com
+
+
