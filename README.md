@@ -1,6 +1,19 @@
+##KuStudio - minimal and superstable OSC editor##
+
 KuStudio is an open source OSC editor, recorder and player, aimed to create timeline on an audiotrack.
 
-It can be used as core timeline module in interactive audiovisual and dance/vocal performances.
+It can be used as core timeline module in interactive audiovisual and dance/vocal performances,
+for example: 
+
+https://www.youtube.com/watch?v=TpGtbPPd2Y0
+
+https://www.youtube.com/watch?v=CuxJqp4HyNA
+
+###User Guide###
+
+Detailed User guide, including installation details, see in bin/KuStudio-Guide.pdf
+
+###Details###
 
 KuStudio lets create, record and OSC tracks, synchronized with given audio track.
 Audiotrack can be WAV or AIFF file.
@@ -17,7 +30,7 @@ It is made with openFrameworks and is available for OSX and Windows.
 
 Binaries can be downloaded at https://sourceforge.net/p/kustudio 
 
---- Compiling ---
+### Compiling ###
 
 To compile the project you need:
 OSX: XCode, openFrameworks 0.9.3.
