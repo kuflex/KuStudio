@@ -1,4 +1,0 @@
-This is demo project providing visualization for demo project,
-included in KuStudio.
-To run it in Windows, you need to install Microsoft Visual C++ 2015 Redisrtibutable (x86).
-It's contained in KuStudio folder, please see KuStudio-Guide.pdf.

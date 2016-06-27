@@ -13,7 +13,7 @@ bool pbFiles::fileExists( const string &fileName )
 }
 
 //--------------------------------------------------------------------------------
-int pbFiles::fileSize(  const string &fileName )
+int pbFiles::fileSize( const string &fileName )
 {
 	FILE *file = fopen( fileName.c_str(), "rb" );
 	fseek( file, 0, SEEK_END );
@@ -23,17 +23,42 @@ int pbFiles::fileSize(  const string &fileName )
 }
 
 //--------------------------------------------------------------------------------
+char cmStringLastSymbol( const string &s ) {
+    if ( !s.empty() ) return s[ s.length()-1 ];
+    else return 0;
+}
+
+//--------------------------------------------------------------------------------
 vector<string> pbFiles::readStrings( const string &fileName )
 {
-	vector<string> list;
-	if ( fileExists( fileName ) ) {
-		ifstream f(fileName.c_str(),ios::in);
-		string line;
-		while (getline(f,line)) {
-			list.push_back( line );
-		}
-	}                              
-	return list;                   
+    vector<string> lines;
+    //cmAssert( cmFileExists( fileName ), "cmFileReadStrings no file " + fileName );
+    ifstream f(fileName.c_str(),ios::in| ios::binary);
+    string line;
+    while (getline(f,line)) {
+        if (line=="") continue;
+        else {
+            //убираем в конце '\r' для правильного считывания windows-файлов в linux
+            //и в windows также сейчас такие есть
+            while ( cmStringLastSymbol( line ) == '\r' ) {
+                line = line.substr( 0, line.length() - 1 );
+            }
+            lines.push_back( line );
+        }
+    }
+    return lines;
+
+    
+    
+//	vector<string> list;
+//	if ( fileExists( fileName ) ) {
+//		ifstream f(fileName.c_str(),ios::in);
+//		string line;
+//		while (getline(f,line)) {
+//			list.push_back( line );
+//		}
+//	}                              
+//	return list;                   
 }
 
 //--------------------------------------------------------------------------------

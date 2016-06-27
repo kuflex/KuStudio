@@ -9,11 +9,6 @@
 //трек звука - всегда вверху показывается
 //по пробелу - запускается с левого края страницы
 
-const float kScrollDist = 20;   //порог, когда считать что не скролл, а выбор трека
-
-const float kTracksAudioY = 100;
-const float kTracksY = kTracksAudioY + 65;
-
 //---------------------------------------------------------------------
 void kusProject::setup( int winw, int winh,
                        string fontFile1, int fontSize1,
@@ -248,10 +243,20 @@ bool kusProject::exportRawText() {
 
 //---------------------------------------------------------------------
 bool kusProject::open( string fileName ) {
+	if (fileName == "") return false;
+	string extension = "kus";
+    string ext1 = ofToLower(ofFilePath::getFileExt(fileName));
+	if ( ext1 != extension) {
+		ofSystemAlertDialog("Can't load project '"
+                            + fileName
+                            + "': this is not KuStudio project file, because its extension '"
+                            + ext1 + "' is not '" + extension + "'");
+		return false;
+	}
+
     stop();
     save( false, false );
 
-    if ( fileName == "" ) return false;
     fileName = ofToDataPath( fileName );
     if ( !pbFiles::fileExists( fileName ) ) {
         return false;
@@ -668,53 +673,62 @@ void kusProject::addTrack() {
     }
 }
 
+
+//---------------------------------------------------------------------
+bool kusProject::checkTrackSelected() {	//выбран ли какой-то трек, если нет - предупредить
+	if (isEmpty()) {
+		return false;
+	}
+	if (selectedTrack_ >= 0) {
+		return true;
+	}
+	else {
+		ofSystemAlertDialog("Please, select a track by clicking it.");
+		return false;
+	}
+}
+
 //---------------------------------------------------------------------
 void kusProject::editTrackName() {
-    if ( isEmpty() ) { return; }
-    if ( selectedTrack_ >= 0 ) {
+	if (checkTrackSelected()) {
         tracks[ selectedTrack_ ].setNameDialog();
     }
 }
 
 //---------------------------------------------------------------------
 void kusProject::editTrackOscOut() {
-    if ( isEmpty() ) { return; }
-    if ( selectedTrack_ >= 0 ) {
+	if (checkTrackSelected()) {
         tracks[ selectedTrack_ ].setOscOutDialog();
     }
 }
 
 //---------------------------------------------------------------------
 void kusProject::editTrackRange() {
-    if ( isEmpty() ) { return; }
-    if ( selectedTrack_ >= 0 ) {
+	if (checkTrackSelected()) {
         tracks[ selectedTrack_ ].setRangeDialog();
     }
 }
 
 //---------------------------------------------------------------------
 void kusProject::editTrackSmooth() {
-    if ( isEmpty() ) { return; }
-    if ( selectedTrack_ >= 0 ) {
+	if (checkTrackSelected()) {
         tracks[ selectedTrack_ ].setSmoothDialog();
     }
 }
 
 //---------------------------------------------------------------------
 void kusProject::editTrackType() {
-    if ( isEmpty() ) { return; }
-    if ( selectedTrack_ >= 0 ) {
+	if (checkTrackSelected()) {
         tracks[ selectedTrack_ ].setTypeDialog();
     }
 }
 
 //---------------------------------------------------------------------
 void kusProject::deleteTrack() {
-    if ( isEmpty() ) { return; }
-    if ( selectedTrack_ >= 0 ) {
-        if ( systemTextBoxDialog("Confirm deleting track "
+	if (checkTrackSelected()) {
+        if ( systemTextBoxDialog("Delete '"
                                    + tracks[selectedTrack_].name()
-                                   + "? (type 'yes')") == "yes" ) {
+                                   + "'? Type 'yes'") == "yes" ) {
             tracks.erase( tracks.begin() + selectedTrack_ );
             selectedTrack_ = -2;
             updateTracksPos();

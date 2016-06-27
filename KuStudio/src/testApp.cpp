@@ -9,7 +9,7 @@
 #include "kuButton.h"
 #include "kuConsole.h"
 
-string PRODUCT_NAME = "KuStudio (1.65)";
+string PRODUCT_NAME = "KuStudio (1.70)";
 
 kuMenu menu;
 kuNavigator navi;
@@ -31,7 +31,7 @@ ofTrueTypeFont font2;
 
 //--------------------------------------------------------------
 void testApp::setup(){
-	console_hide();
+	console_hide();	//Hide console in Windows
 
     ofSetWindowTitle( PRODUCT_NAME );
     ofSetEscapeQuitsApp( false );   //выключили ESC
@@ -134,6 +134,7 @@ void testApp::resized() {
 
 //--------------------------------------------------------------
 void testApp::exit() {
+	cout << "Exiting..." << endl;
     if ( _saveOnExit ) project.save( false, false );
     shared_state.save();
 
@@ -141,6 +142,7 @@ void testApp::exit() {
 
 //--------------------------------------------------------------
 void testApp::exitWithoutSaving() {
+	cout << "Exiting without saving..." << endl;
     _saveOnExit = false;
     OF_EXIT_APP( 0 );
 }
@@ -385,7 +387,18 @@ void testApp::draw(){
     ofSetColor( 255, 255, 255 );
     ofLine( timeX, navi.getY()-8, timeX, navi.getY() + navi.getH() );
     //----------------
-    
+	//крестик мыши
+	bool edit = (b_edit->isDown() || b_edit_line->isDown() );
+	if ( edit ) {
+		ofSetColor(219, 160, 84, (edit)?255:128);
+		ofLine(mouseX, kTracksAudioY-8, mouseX, ofGetHeight());
+		if (mouseY >= kTracksY) {
+			ofLine(0, mouseY, ofGetWidth(), mouseY);
+		}
+	}
+
+	//----------------
+
     //текущее время текстом
     ofSetColor( 200 );
     font2.drawString( project.timeString(), timeTextX, 30 );

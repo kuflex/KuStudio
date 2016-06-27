@@ -6,6 +6,12 @@
 #include "kuWavFile.h"
 #include "kuOscSend.h"
 
+const float kScrollDist = 20;   //порог, когда считать что не скролл, а выбор трека
+
+const float kTracksAudioY = 100;
+const float kTracksY = kTracksAudioY + 65;
+
+
 class kusProject
 {
 public:
@@ -53,6 +59,7 @@ public:
     void editTrackSmooth();
     void editTrackType();
     void deleteTrack();
+	bool checkTrackSelected();	//выбран ли какой-то трек, если нет - предупредить
     
     void editOscOut( int index ); //редактировать OSC-выход
     void editPlayerOut( int index ); //редактировать OSC-выход на kuPlayer
