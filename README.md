@@ -1,8 +1,8 @@
-KuStudio is a minimalistic OSC sequencer and editor
-It's made in http://kuflex.com
+KuStudio is a minimalistic OSC sequencer and editor.
 
-###Introductory video
-https://www.youtube.com/watch?v=2cLwTnFIWEU
+It's made by http://kuflex.com
+
+Introductory video: https://www.youtube.com/watch?v=2cLwTnFIWEU
 
 ##Directory contents
 
