@@ -1,10 +1,15 @@
---------------------------------------------------
 KuStudio - OSC editor
+=====================
 kuflex.com, 2016
+
+--------------------------------------------------
+
+https://www.youtube.com/watch?v=2cLwTnFIWEU
+
 --------------------------------------------------
 Directory contents
 
-	KuStudio - main folder with KuStudio
+KuStudio - main folder with KuStudio
 	DemoProject - Test project, you can start learning KuStudio 
 	              by loading this project
 	OSC-Demo-oF - Test visualizer, for using with DemoProject
