@@ -39,7 +39,7 @@ install Microsoft Visual C++ 2015  Redistributable (x86)
 by running vc_redist.x86_vs2015.exe. 
 Alternatively, you can download it from Microsoft website.
 
-###Details###
+##Details
 
 KuStudio lets create, record and OSC tracks, synchronized with given audio track.
 Audiotrack can be WAV or AIFF file.
@@ -48,14 +48,14 @@ KuStudio is inspired by famous Duration OSC editor, but has different philosophy
 
 It is made with openFrameworks and is available for OSX and Windows.
 
-### Compiling ###
+##Compiling
 
 To compile the project you need:
 OSX: XCode, openFrameworks 0.9.3.
 Windows: Visual Studio 2015 C++ (Express), openFrameworks 0.9.3.
 Linux: not tested.
 
-### Support ###
+##Support
 
 For quick support, please write to perevalovds@gmail.com
 
