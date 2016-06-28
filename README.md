@@ -3,8 +3,7 @@ KuStudio - OSC editor
 kuflex.com, 2016
 
 --------------------------------------------------
-
-(https://www.youtube.com/watch?v=2cLwTnFIWEU)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2cLwTnFIWEU" frameborder="0" allowfullscreen></iframe>
 
 --------------------------------------------------
 Directory contents
