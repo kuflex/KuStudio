@@ -1,6 +1,5 @@
-#KuStudio - OSC editor
-
-kuflex.com, 2016
+KuStudio is a minimalistic OSC sequencer and editor
+It's made in http://kuflex.com
 
 ###Introductory video
 https://www.youtube.com/watch?v=2cLwTnFIWEU
