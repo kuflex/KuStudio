@@ -26,14 +26,14 @@ User guide: [bin/KuStudio-Guide.pdf](https://github.com/kuflex/KuStudio/blob/mas
 
 ##Troubleshooting
 
-###OSX
+###Running binaries in OSX
 At the first run you can get the security warning.
 To resolve it, right-click KuStudio to show context 
 menu and click there "Open". 
 You will see security dialog with two buttons, "Open" and "Cancel". 
 Choose "Open" to start KuStudio. 
 
-###Windows
+###Running binaries in Windows
 If KuStudio doesn't start, 
 install Microsoft Visual C++ 2015  Redistributable (x86) 
 by running vc_redist.x86_vs2015.exe. 
