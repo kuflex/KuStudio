@@ -2,6 +2,7 @@ KuStudio is an open source OSC editor, recorder and player, aimed to create time
 
 It's made by [Kuflex](http://kuflex.com).
 
+
 ![Screenshot](https://raw.githubusercontent.com/kuflex/KuStudio/master/KuStudio/doc/kustudio-shot_750.png)
 
 ##Directory contents
@@ -26,14 +27,14 @@ User guide: [bin/KuStudio-Guide.pdf](https://github.com/kuflex/KuStudio/blob/mas
 
 ##Troubleshooting
 
-###Running binaries in OSX
+####Running binaries in OSX
 At the first run you can get the security warning.
 To resolve it, right-click KuStudio to show context 
 menu and click there "Open". 
 You will see security dialog with two buttons, "Open" and "Cancel". 
 Choose "Open" to start KuStudio. 
 
-###Running binaries in Windows
+####Running binaries in Windows
 If KuStudio doesn't start, 
 install Microsoft Visual C++ 2015  Redistributable (x86) 
 by running vc_redist.x86_vs2015.exe. 
