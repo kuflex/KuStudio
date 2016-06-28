@@ -1,6 +1,6 @@
 KuStudio is an open source OSC editor, recorder and player, aimed to create timeline on an audiotrack.
 
-It's made by [Kuflex](http://kuflex.com)
+It's made by [Kuflex](http://kuflex.com).
 
 ![Screenshot](https://raw.githubusercontent.com/kuflex/KuStudio/master/KuStudio/doc/kustudio-shot_750.png)
 
@@ -21,7 +21,8 @@ Download binaries for OSX and Windows at https://sourceforge.net/p/kustudio
 4. Press Play in KuStudio
 
 Introductory video explaining Quick Start: https://www.youtube.com/watch?v=2cLwTnFIWEU
-User guide: [bin/KuStudio-Guide.pdf](https://github.com/kuflex/KuStudio/blob/master/bin/KuStudio-Guide.pdf)
+
+User guide: [bin/KuStudio-Guide.pdf](https://github.com/kuflex/KuStudio/blob/master/KuStudio/bin/KuStudio-Guide.pdf)
 
 ##Troubleshooting
 
