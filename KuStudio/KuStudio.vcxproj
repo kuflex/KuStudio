@@ -191,7 +191,6 @@
     <ClCompile Include="src\kummon\parsing.cpp" />
     <ClCompile Include="src\kummon\pbFiles.cpp" />
     <ClCompile Include="src\kummon\pbGraphicUtils.cpp" />
-    <ClCompile Include="src\kummon\pbNetwork.cpp" />
     <ClCompile Include="src\kummon\pbNoiseGenerator.cpp" />
     <ClCompile Include="src\kummon\pbOscReceiver.cpp" />
     <ClCompile Include="src\kummon\pbTextureUtil.cpp" />
@@ -240,7 +239,6 @@
     <ClInclude Include="src\kummon\parsing.h" />
     <ClInclude Include="src\kummon\pbFiles.h" />
     <ClInclude Include="src\kummon\pbGraphicUtils.h" />
-    <ClInclude Include="src\kummon\pbNetwork.h" />
     <ClInclude Include="src\kummon\pbNoiseGenerator.h" />
     <ClInclude Include="src\kummon\pbOscReceiver.h" />
     <ClInclude Include="src\kummon\pbTextureUtil.h" />

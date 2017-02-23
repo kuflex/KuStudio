@@ -61,9 +61,6 @@
     <ClCompile Include="src\kummon\pbGraphicUtils.cpp">
       <Filter>src\kummon</Filter>
     </ClCompile>
-    <ClCompile Include="src\kummon\pbNetwork.cpp">
-      <Filter>src\kummon</Filter>
-    </ClCompile>
     <ClCompile Include="src\kummon\pbNoiseGenerator.cpp">
       <Filter>src\kummon</Filter>
     </ClCompile>
@@ -255,9 +252,6 @@
       <Filter>src\kummon</Filter>
     </ClInclude>
     <ClInclude Include="src\kummon\pbGraphicUtils.h">
-      <Filter>src\kummon</Filter>
-    </ClInclude>
-    <ClInclude Include="src\kummon\pbNetwork.h">
       <Filter>src\kummon</Filter>
     </ClInclude>
     <ClInclude Include="src\kummon\pbNoiseGenerator.h">
