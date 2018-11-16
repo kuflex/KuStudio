@@ -16,6 +16,11 @@ It's made by [Kuflex](http://kuflex.com).
 
 Download binaries for OSX and Windows at https://sourceforge.net/p/kustudio 
 
+(On Mac OS: before running, please open Terminal, 
+drag there "remove_quarantine.sh" and press Enter.
+We need to do it to remove "quarantine flags" which Mac OS sets 
+on downloaded files)
+
 1. Run KuStudio
 2. Open project "DemoProject.kus" in KuStudio, 
 3. Run demo visualization "OSC-Demo-oF"
